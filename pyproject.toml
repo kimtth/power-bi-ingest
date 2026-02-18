@@ -1,0 +1,12 @@
+[project]
+name = "pbi-ingest"
+version = "0.1.0"
+description = "CLI tool to extract schema and measures from Power BI PBIP projects"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "pyinstaller>=6.19.0",
+]
+
+[project.scripts]
+pbingest = "main:main"
